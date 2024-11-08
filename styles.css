@@ -19,8 +19,8 @@ body {
 .terminal-window {
   background-color: black;
   border: 1px solid #333;
-  width: 70%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 1000px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -31,7 +31,7 @@ body {
   align-items: center;
   background-color: #333;
   color: #33FF00;
-  padding: 5px;
+  padding: 5px 10px;
   font-size: 1.2em;
   /*text-align: left;*/
 }
@@ -55,11 +55,11 @@ body {
 }
 
 .terminal {
-  padding: 10px;
+  padding: 3px;
   white-space: pre-wrap; /* Maintain formatting */
   word-wrap: break-word; /* Break long words */
   overflow-y: auto; /* Allow scrolling if necessary */
-  height: 400px; /* Initial height */
+  height: 700px; /* Initial height */
   font-size: 1.1em;
   line-height: 1.4;
 }
