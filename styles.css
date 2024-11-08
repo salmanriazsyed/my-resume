@@ -26,15 +26,36 @@ body {
 }
 
 .terminal-header {
+  display: flex;
+  justify-content; space-between;
+  align-items: center;
   background-color: #333;
   color: #33FF00;
-  padding: 10px;
+  padding: 5px;
   font-size: 1.2em;
-  text-align: center;
+  /*text-align: left;*/
+}
+
+/* CSS styling for the button */
+.button {
+    padding: 5px 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.button:hover {
+    color: green;
 }
 
 .terminal {
-  padding: 15px;
+  padding: 10px;
   white-space: pre-wrap; /* Maintain formatting */
   word-wrap: break-word; /* Break long words */
   overflow-y: auto; /* Allow scrolling if necessary */
