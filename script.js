@@ -1,9 +1,15 @@
 // Resume content (as per your resume provided)
-const resumeText = `$ Hi. My name is Salman Riaz Syed, I am an innovative AI Engineer and Software Developer with an MSc. in Artificial Intelligence from Queen Mary University of London and a BS (Honors) in Computer Science.
+const resumeText = `$ Hi. My name is Salman Riaz Syed.
 
-$ I am proficient in Python, SQL, Flask, JavaScript, and REST APIs with hands-on experience in building scalable web applications and implementing machine learning models for practical solutions.
+Education:
+MSc. in Artificial Intelligence - Queen Mary University of London
 
-You can contact me through the following:
+BS (Honors) in Computer Science.
+
+Skills:
+Python, SQL, Flask, JavaScript, REST APIs, scalable web applications, machine learning.
+
+Contact:
 
 $ +92 313 4747587
 $ salmanriazsyeduk@gmail.com
