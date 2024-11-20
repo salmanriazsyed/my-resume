@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
 }
 
 /* Styling the Terminal Window */
@@ -59,7 +59,7 @@ body {
   white-space: pre-wrap; /* Maintain formatting */
   word-wrap: break-word; /* Break long words */
   overflow-y: auto; /* Allow scrolling if necessary */
-  height: 700px; /* Initial height */
-  font-size: 1.1em;
+  height: 600px; /* Initial height */
+  font-size: 1.4em;
   line-height: 1.4;
 }
